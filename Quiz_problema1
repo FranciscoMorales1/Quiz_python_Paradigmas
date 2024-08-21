@@ -1,0 +1,9 @@
+# Problema 1  , duplicar numeros
+
+
+lista = [1,2,3,4,5]
+
+
+listaPorDos = list(map(lambda n: n * 2 , lista))
+
+print (listaPorDos)
