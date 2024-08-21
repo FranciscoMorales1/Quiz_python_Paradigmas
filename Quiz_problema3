@@ -1,0 +1,8 @@
+# Problema 3 , ordenar una lista de tuplas.
+
+
+puntos = [(99,2) , (2,3) , (0,1), (37,3)]
+
+puntosOrganizados = sorted(puntos, key = lambda n: n[0]**2 + n[1]**2)
+
+print (puntosOrganizados)
